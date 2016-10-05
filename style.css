@@ -1,0 +1,63 @@
+body {
+	background-image: url('http://www.publicdomainpictures.net/pictures/170000/velka/grunge-background-1463561668zRl.jpg');
+	background-size: cover;
+
+
+}
+
+h1 {
+	font-family: verdana;
+	color: white;
+	text-align: center;
+
+
+}
+
+.img1 {
+	height: 600px;
+	z-index: -1;
+	align-content: center;
+	position: absolute;
+}
+
+
+.img2 {
+	height: 700px;
+	margin: 0%;
+	z-index: 1;
+	position: absolute;
+
+}
+
+.img3 {
+	height: 700px;
+	z-index: 2;
+	position: relative;
+	-webkit-animation-name: example; /* Chrome, Safari, Opera */
+-webkit-animation-duration: 10s; /* Chrome, Safari, Opera */
+-webkit-animation-iteration-count: 4; /* Chrome, Safari, Opera */
+-webkit-animation-direction: reverse; /* Chrome, Safari, Opera */
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: 3;
+animation-direction: reverse;
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:3px; top:15px;}
+    50%  {left:0px; top:0px;}
+    75%  {left:3px; top:15px;}
+    100% {left:0px; top:0px;}
+
+}
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:3px; top:15px;}
+    50%  {left:0px; top:0px;}
+    75%  {left:3px; top:15px;}
+    100% {left:0px; top:0px;}
+}
