@@ -10,19 +10,31 @@ body {
 }
 
 h1 {
-	font-family: verdana;
+	font-family: courier;
 	color: white;
-	text-align: center;
+	text-align: right;
 
 
 }
 
 .container {
-cursor: pointer;
-width: 100%; height: 100%;
+	 cursor: pointer; 
+	 width: 100%; height: 100%;
 }
 
-.img1 {
+#id {
+	text-align: right;
+	font-family: Courier;
+}
+
+.button {
+	height:20px;
+width:40px;
+background: url("trumphumpdump.png");
+}
+
+
+.imma1 {
 	height: 600px;
 	z-index: -1;
 	align-content: center;
@@ -30,43 +42,10 @@ width: 100%; height: 100%;
 }
 
 
-.img2 {
+.imma2 {
 	height: 700px;
 	margin: 0%;
 	z-index: 1;
-	position: absolute;
-
-}
-
-.img3 {
-	height: 700px;
-	z-index: 2;
 	position: relative;
-	-webkit-animation-name: example; /* Chrome, Safari, Opera */
--webkit-animation-duration: 10s; /* Chrome, Safari, Opera */
--webkit-animation-iteration-count: 4; /* Chrome, Safari, Opera */
--webkit-animation-direction: reverse; /* Chrome, Safari, Opera */
-animation-name: example;
-animation-duration: 4s;
-animation-iteration-count: 3;
-animation-direction: reverse;
-/* Chrome, Safari, Opera */
-@-webkit-keyframes example {
-    0%   {left:0px; top:0px;}
-    25%  {left:3px; top:15px;}
-    50%  {left:0px; top:0px;}
-    75%  {left:3px; top:15px;}
-    100% {left:0px; top:0px;}
 
-}
-
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes example {
-    0%   {left:0px; top:0px;}
-    25%  {left:3px; top:15px;}
-    50%  {left:0px; top:0px;}
-    75%  {left:3px; top:15px;}
-    100% {left:0px; top:0px;}
 }
