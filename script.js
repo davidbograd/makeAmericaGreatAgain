@@ -1,10 +1,8 @@
-
-
-
+function playRandomSound(){
         var sounds = [
         {
-          "file": "audio/givetrumpsomewaterplz.wav",
-          "text": "...Hello? Can I get some water????..."
+          "file": "audio/trumpbeingtrump1.wav",
+          "text": "Hello...Hello? Can I get some water????..."
         },
         {
           "file": "audio/trumpbeingtrump2.wav",
@@ -103,25 +101,18 @@
           "text": "You know, i have many millions between facebook and twitter, it's great! It's like owning a newspaper but without the losses, it's incredible!"
         },
          {
-          "file": "audio/trumpbeingtrump25.wav",
+          "file": "audio/trumpbeingtrump26.wav",
           "text": "Rick Perry should have to have an IQ-test!"
         },
 
         ];
 
-
-      
      var soundFile = sounds[Math.floor(Math.random()*sounds.length)];
 
      var file = document.getElementById("player").innerHTML="<embed src=\""+soundFile.file+"\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
      var text = document.getElementById("style").innerHTML="<h1>"+soundFile.text+"</h1>";
-     
-     console.log(yo)
-     console.log(style)
+
+     console.log(text);
 
 
 }
-
-
-
-
