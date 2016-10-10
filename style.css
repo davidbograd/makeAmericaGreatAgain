@@ -35,13 +35,13 @@ h1 {
     /* Chrome, Safari, Opera */
     -webkit-animation-duration: 4s;
     /* Chrome, Safari, Opera */
-    /*-webkit-animation-iteration-count: 4;*/
+    -webkit-animation-iteration-count: 3;
     /* Chrome, Safari, Opera */
     -webkit-animation-direction: reverse;
     /* Chrome, Safari, Opera */
     animation-name: example;
     animation-duration: 4s;
-    /*animation-iteration-count: 3;*/
+    animation-iteration-count: 3;
     animation-direction: reverse;
     /* Chrome, Safari, Opera */
     @-webkit-keyframes example {
