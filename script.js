@@ -18,17 +18,11 @@ function playRandomSound() {
             "file": "audio/trumpbeingtrump6.wav",
             "text": "You have to get hit with a kumatsu tractor..."
         }, {
-            "file": "audio/trumpbeingtrump7.wav",
-            "text": "So what I'm gonna do is SPAN OUT, span out!"
-        }, {
             "file": "audio/trumpbeingtrump8.wav",
             "text": "I would never give up my microphone! I thought that was discusting!"
         }, {
             "file": "audio/trumpbeingtrump9.wav",
             "text": "Terrible paper...I love it."
-        }, {
-            "file": "audio/trumpbeingtrump10.wav",
-            "text": "WHO is Uma married to?"
         }, {
             "file": "audio/trumpbeingtrump11.wav",
             "text": "Because we're going to hell!"
@@ -47,9 +41,6 @@ function playRandomSound() {
         }, {
             "file": "audio/trumpbeingtrump16.wav",
             "text": "Arab name, arab name, arab name"
-        }, {
-            "file": "audio/trumpbeingtrump17.wav",
-            "text": "What are you trying to talk to some of us about joining your little home? "
         }, {
             "file": "audio/trumpbeingtrump18.wav",
             "text": "He's sweating like a pig! I've never saw a guy sweat like this!"
@@ -72,11 +63,29 @@ function playRandomSound() {
             "file": "audio/trumpbeingtrump24.wav",
             "text": "He put glasses on so people will think he is smart!"
         }, {
-            "file": "audio/trumpbeingtrump25.wav",
-            "text": "You know, i have many millions between facebook and twitter, it's great! It's like owning a newspaper but without the losses, it's incredible!"
-        }, {
             "file": "audio/trumpbeingtrump26.wav",
             "text": "Rick Perry should have to have an IQ-test!"
+        }, {
+            "file": "audio/trumpbeingtrump27.wav",
+            "text": "I've said that if Ivanka weren't my daughter, perhaps I'd be dating her."
+        }, {
+            "file": "audio/trumpbeingtrump28.wav",
+            "text": "And I watched our police and our firemen, down on 7/11, down at the World Trade Center, right after it came down."
+        }, {
+            "file": "audio/trumpbeingtrump29.wav",
+            "text": "Grab them by the pussy."
+        }, {
+            "file": "audio/trumpbeingtrump30.wav",
+            "text": "I tend to like beautiful women more than unattractive women, I don't know maybe that makes me bad."
+        }, {
+            "file": "audio/trumpbeingtrump31.wav",
+            "text": "Uaaah, I don't know what I said AAH, I don't remember!"
+        }, {
+            "file": "audio/trumpbeingtrump32.wav",
+            "text": "He's going like I don't remember AHH, the old baby! That's what I said!"
+        }, {
+            "file": "audio/trumpbeingtrump33.wav",
+            "text": "I'd call president Obama and Hillary Clinton the founders of ISIS, they're the founders."
         },
 
     ];
