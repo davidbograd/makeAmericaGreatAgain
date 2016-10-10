@@ -3,7 +3,7 @@ function playRandomSound() {
     var sounds = [{
             "file": "audio/trumpbeingtrump1.wav",
             "text": "Hello...Hello? Can I get some water????...",
-            "length": 2000
+            "length": 3000
         }, {
             "file": "audio/trumpbeingtrump2.wav",
             "text": "Bing, bing, bing...",
@@ -15,19 +15,19 @@ function playRandomSound() {
         }, {
             "file": "audio/trumpbeingtrump4.wav",
             "text": "We can't sell beef...it's peanuts!",
-            "length": 2000
+            "length": 3000
         }, {
             "file": "audio/trumpbeingtrump5.wav",
             "text": "I said it's ILLEGAL!",
-            "length": 2000
+            "length": 1000
         }, {
             "file": "audio/trumpbeingtrump6.wav",
             "text": "You have to get hit with a kumatsu tractor...",
-            "length": 2000
+            "length": 3000
         }, {
             "file": "audio/trumpbeingtrump8.wav",
             "text": "I would never give up my microphone! I thought that was discusting!",
-            "length": 2000
+            "length": 3000
         }, {
             "file": "audio/trumpbeingtrump9.wav",
             "text": "Terrible paper...I love it.",
@@ -35,7 +35,7 @@ function playRandomSound() {
         }, {
             "file": "audio/trumpbeingtrump11.wav",
             "text": "Because we're going to hell!",
-            "length": 2000
+            "length": 1000
         }, {
             "file": "audio/trumpbeingtrump12.wav",
             "text": "Uhmm...we'll do something. We'll go to sleep first.",
@@ -43,7 +43,7 @@ function playRandomSound() {
         }, {
             "file": "audio/trumpbeingtrump13.wav",
             "text": "Our country is going to hell.",
-            "length": 2000
+            "length": 1000
         }, {
             "file": "audio/trumpbeingtrump14.wav",
             "text": "I beat the people from China, I win!",
@@ -51,15 +51,15 @@ function playRandomSound() {
         }, {
             "file": "audio/trumpbeingtrump15.wav",
             "text": "We're tired of the nice people!",
-            "length": 2000
+            "length": 1000
         }, {
             "file": "audio/trumpbeingtrump16.wav",
             "text": "Arab name, arab name, arab name",
-            "length": 2000
+            "length": 1000
         }, {
             "file": "audio/trumpbeingtrump18.wav",
             "text": "He's sweating like a pig! I've never saw a guy sweat like this!",
-            "length": 2000
+            "length": 3000
         }, {
             "file": "audio/trumpbeingtrump19.wav",
             "text": "He wants to play golf! I play golf, i kill him at golf!",
@@ -67,55 +67,55 @@ function playRandomSound() {
         }, {
             "file": "audio/trumpbeingtrump20.wav",
             "text": "Bing, bing, bing, right!?",
-            "length": 2000
+            "length": 1000
         }, {
             "file": "audio/trumpbeingtrump21.wav",
             "text": "Oy, oy, oyee...",
-            "length": 2000
+            "length": 1000
         }, {
             "file": "audio/trumpbeingtrump22.wav",
             "text": "I will take care of women, I respect women. I will take take of women.",
-            "length": 2000
+            "length": 3000
         }, {
             "file": "audio/trumpbeingtrump23.wav",
             "text": "You know, you could see there where blood coming out of her eyes...uh... blood coming out of her...wherever.",
-            "length": 2000
+            "length": 5000
         }, {
             "file": "audio/trumpbeingtrump24.wav",
             "text": "He put glasses on so people will think he is smart!",
-            "length": 2000
+            "length": 3000
         }, {
             "file": "audio/trumpbeingtrump26.wav",
             "text": "Rick Perry should have to have an IQ-test!",
-            "length": 2000
+            "length": 2500
         }, {
             "file": "audio/trumpbeingtrump27.wav",
             "text": "I've said that if Ivanka weren't my daughter, perhaps I'd be dating her.",
-            "length": 2000
+            "length": 3000
         }, {
             "file": "audio/trumpbeingtrump28.wav",
             "text": "And I watched our police and our firemen, down on 7/11, down at the World Trade Center, right after it came down.",
-            "length": 2000
+            "length": 6000
         }, {
             "file": "audio/trumpbeingtrump29.wav",
             "text": "Grab them by the pussy.",
-            "length": 2000
+            "length": 1500
         }, {
             "file": "audio/trumpbeingtrump30.wav",
             "text": "I tend to like beautiful women more than unattractive women, I don't know maybe that makes me bad.",
-            "length": 2000
+            "length": 3000
         }, {
             "file": "audio/trumpbeingtrump31.wav",
             "text": "Uaaah, I don't know what I said AAH, I don't remember!",
-            "length": 2000
+            "length": 3000
         }, {
             "file": "audio/trumpbeingtrump32.wav",
             "text": "He's going like I don't remember AHH, the old baby! That's what I said!",
-            "length": 2000
+            "length": 3000
         }, {
             "file": "audio/trumpbeingtrump33.wav",
             "text": "I'd call president Obama and Hillary Clinton the founders of ISIS, they're the founders.",
-            "length": 2000
+            "length": 5000
         }
     ];
 
