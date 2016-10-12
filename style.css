@@ -33,15 +33,15 @@ h1 {
 .mouthmoving {
     -webkit-animation-name: example;
     /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 4s;
+    -webkit-animation-duration: 0.4s;
     /* Chrome, Safari, Opera */
-    -webkit-animation-iteration-count: 3;
+    -webkit-animation-iteration-count: 100;
     /* Chrome, Safari, Opera */
     -webkit-animation-direction: reverse;
     /* Chrome, Safari, Opera */
     animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: 3;
+    animation-duration: 0.4s;
+    animation-iteration-count: 100;
     animation-direction: reverse;
     /* Chrome, Safari, Opera */
     @-webkit-keyframes example {
@@ -49,15 +49,23 @@ h1 {
             left: 0px;
             top: 0px;
         }
-        25% {
+        17% {
             left: 3px;
             top: 15px;
         }
-        50% {
+        30% {
             left: 0px;
             top: 0px;
         }
-        75% {
+        40% {
+            left: 2px;
+            top: 10px;
+        }
+        57% {
+            left: 0px;
+            top: 0px;
+        }
+        85% {
             left: 3px;
             top: 15px;
         }
