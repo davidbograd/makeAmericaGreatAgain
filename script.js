@@ -29,7 +29,7 @@ var sounds = [{
             "length": 3000
         }, {
             "file": "audio/trumpbeingtrump9.wav",
-            "text": "Terrible paper...I love it.",
+            "text": "Terrible people...I love it.",
             "length": 2000
         }, {
             "file": "audio/trumpbeingtrump11.wav",
@@ -73,7 +73,7 @@ var sounds = [{
             "length": 1000
         }, {
             "file": "audio/trumpbeingtrump22.wav",
-            "text": "I will take care of women, I respect women. I will take take of women.",
+            "text": "I will take care of women, I respect women. I will take care of women.",
             "length": 3000
         }, {
             "file": "audio/trumpbeingtrump23.wav",
@@ -124,13 +124,13 @@ function playRandomSound() {
 
     var soundFile = sounds[randomNumber];
     var file = document.getElementById("player").innerHTML = "<embed src=\"" + soundFile.file + "\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
-    var text = document.getElementById("style").innerHTML = "<h1>" + soundFile.text + "</h1>";
+    var text = document.getElementById("style").innerHTML = "<h2>" + soundFile.text + "</h2>";
 
     // Animations when clicking
-    document.getElementById('img3').className = 'mouthmoving';
+    document.getElementById('trump-mouth').className = 'mouthmoving';
 
     setTimeout(function() {
-      $("#img3").removeClass('mouthmoving');
+      $("#trump-mouth").removeClass('mouthmoving');
     }, soundFile.length);
 
     //console.log(soundFile.length);
