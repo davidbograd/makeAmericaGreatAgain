@@ -124,7 +124,7 @@ function playRandomSound() {
 
     var soundFile = sounds[randomNumber];
     var file = document.getElementById("player").innerHTML = "<embed src=\"" + soundFile.file + "\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
-    var text = document.getElementById("style").innerHTML = "<h2>" + soundFile.text + "</h2>";
+    var text = document.getElementById("quote").innerHTML = "<h2>" + soundFile.text + "</h2>";
 
     // Animations when clicking
     document.getElementById('trump-mouth').className = 'mouthmoving';
@@ -132,22 +132,6 @@ function playRandomSound() {
     setTimeout(function() {
       $("#trump-mouth").removeClass('mouthmoving');
     }, soundFile.length);
-
-    //console.log(soundFile.length);
-
-
-    //  document.getElementById('img3').className =
-    //    document.getElementById("img3").className.replace
-    //       ( /(?:^|\s)mouthmoving(?!\S)/g , '' )
-
-
-    // $('.img3').removeClass().addClass('mouthmoving').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-    //         $(this).removeClass();
-    //     });
-    //
-    // $(".mouthmoving").css('animation-duration:', "10s");
-    //    document.querySelector('.mouthmoving').style.top = Math.round( screen.height * percent)+'px';
-
 };
 
 function getRandomNumber() {

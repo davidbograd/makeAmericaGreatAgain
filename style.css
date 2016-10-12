@@ -1,6 +1,15 @@
     @import 'https://fonts.googleapis.com/css?family=Montserrat';
 body {
     background-image: url('images/grunge-bg.jpg');
+    background: #2f4156;
+    background: -webkit-linear-gradient(-90deg, #2f4156, #2c384b);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #2f4156, #2c384b);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #2f4156, #2c384b);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #2f4156, #2c384b);
+    /* Standard syntax */
     background-size: cover;
     font-family: Montserrat, helvetica, arial, sans-serif;
     margin: 0;
@@ -22,6 +31,24 @@ h1 {
 h2 {
     color: white;
     text-align: left;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.quotations {
+  font-size: 100px;
+  color: #ce222f;
+  max-height: 26px;
+  position: absolute;
+  padding-left: 18px;
+  padding-top: 142px;
+}
+
+#quote {
+  max-width: 370px;
+  position: absolute;
+  padding-left: 760px;
+  padding-top: 120px;
 }
 
 #topbar-content {
@@ -42,9 +69,7 @@ h2 {
 }
 
 #topbar {
-    /*background-color: #d52736;*/
     background: #d52736;
-    /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(-90deg, #ca202c, #e32f41);
     /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(-90deg, #ca202c, #e32f41);
@@ -56,10 +81,18 @@ h2 {
 }
 
 #trump-img {
-    height: 700px;
-    margin: 0%;
+    max-height: 700px;
     z-index: 1;
     position: absolute;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #trump-mouth {
