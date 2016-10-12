@@ -17,12 +17,26 @@
 	</head>
 
 	<body>
+		<!-- Preload div -->
 		<div class="loader"></div>
+
+		<div id="topbar">
+			<div id="topbar-content">
+						<img class="star" src="images/star.svg" alt="star">
+			<h1>TRUMPTRASH.ORG</h1>
+			<img class="star" src="images/star.svg" alt="star">
+			</div>
+		</div>
+
+		<!-- Clicking container and main content -->
 		<div class="container" onclick='playRandomSound();'>
+
+			<!-- Audio clips div -->
 			<div id="style"></div>
-			<img id='img1' src="images/trumpstamp.png" />
-			<img id='img2' src="images/trump.png" />
-			<img id='img3' src="images/trumpmouth.png" />
+
+			<!-- Trump and his mouth -->
+			<img id='trump-img' src="images/trump.png" />
+			<img id='trump-mouth' src="images/trumpmouth.png" />
 
 			<span id='player'></span>
 
