@@ -115,7 +115,7 @@ var sounds = [{
             "file": "audio/trumpbeingtrump33.wav",
             "text": "I'd call president Obama and Hillary Clinton the founders of ISIS, they're the founders.",
             "length": 6000
-        } 
+        }
     ];
 
 function playRandomSound() {
@@ -124,13 +124,13 @@ function playRandomSound() {
 
     var soundFile = sounds[randomNumber];
     var file = document.getElementById("player").innerHTML = "<embed src=\"" + soundFile.file + "\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
-    var text = document.getElementById("style").innerHTML = "<h1>" + soundFile.text + "</h1>";
+    var text = document.getElementById("quote").innerHTML = "<h2>" + soundFile.text + "</h2>";
 
     // Animations when clicking
-    document.getElementById('img3').className = 'mouthmoving';
+    document.getElementById('trump-mouth').className = 'mouthmoving';
 
     setTimeout(function() {
-      $("#img3").removeClass('mouthmoving');
+      $("#trump-mouth").removeClass('mouthmoving');
     }, soundFile.length);
 
     //console.log(soundFile.length);
