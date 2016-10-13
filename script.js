@@ -6,116 +6,116 @@ var sounds = [{
         }, {
             "file": "audio/trumpbeingtrump2.wav",
             "text": "Bing, bing, bing...",
-            "length": 2000
+            "length": 1900
         }, {
             "file": "audio/trumpbeingtrump3.wav",
             "text": "Bing, bing, bong, bong, bing...",
-            "length": 2000
+            "length": 2800
         }, {
             "file": "audio/trumpbeingtrump4.wav",
             "text": "We can't sell beef...it's peanuts!",
-            "length": 3000
+            "length": 3700
         }, {
             "file": "audio/trumpbeingtrump5.wav",
             "text": "I said it's ILLEGAL!",
-            "length": 1000
+            "length": 2000
         }, {
             "file": "audio/trumpbeingtrump6.wav",
             "text": "You have to get hit with a kumatsu tractor...",
-            "length": 3000
-        }, {
+            "length": 3500
+        },{
             "file": "audio/trumpbeingtrump8.wav",
             "text": "I would never give up my microphone! I thought that was discusting!",
-            "length": 3000
-        }, {
+            "length": 3900
+        },  {
             "file": "audio/trumpbeingtrump9.wav",
-            "text": "Terrible people...I love it.",
-            "length": 2000
+            "text": "Terrible paper...I love it.",
+            "length": 3500
         }, {
             "file": "audio/trumpbeingtrump11.wav",
             "text": "Because we're going to hell!",
-            "length": 1000
+            "length": 1500
         }, {
             "file": "audio/trumpbeingtrump12.wav",
             "text": "Uhmm...we'll do something. We'll go to sleep first.",
-            "length": 2000
+            "length": 2700
         }, {
             "file": "audio/trumpbeingtrump13.wav",
             "text": "Our country is going to hell.",
-            "length": 1000
+            "length": 2500
         }, {
             "file": "audio/trumpbeingtrump14.wav",
             "text": "I beat the people from China, I win!",
-            "length": 2000
+            "length": 3000
         }, {
             "file": "audio/trumpbeingtrump15.wav",
             "text": "We're tired of the nice people!",
-            "length": 1000
+            "length": 2000
         }, {
             "file": "audio/trumpbeingtrump16.wav",
             "text": "Arab name, arab name, arab name",
-            "length": 1000
+            "length": 2000
         }, {
             "file": "audio/trumpbeingtrump18.wav",
             "text": "He's sweating like a pig! I've never saw a guy sweat like this!",
-            "length": 3000
+            "length": 3500
         }, {
             "file": "audio/trumpbeingtrump19.wav",
             "text": "He wants to play golf! I play golf, i kill him at golf!",
-            "length": 2000
+            "length": 3300
         }, {
             "file": "audio/trumpbeingtrump20.wav",
             "text": "Bing, bing, bing, right!?",
-            "length": 1000
+            "length": 1900
         }, {
             "file": "audio/trumpbeingtrump21.wav",
             "text": "Oy, oy, oyee...",
-            "length": 1000
+            "length": 1900
         }, {
             "file": "audio/trumpbeingtrump22.wav",
-            "text": "I will take care of women, I respect women. I will take care of women.",
-            "length": 3000
+            "text": "I will take care of women, I respect women. I will take take of women.",
+            "length": 4200
         }, {
             "file": "audio/trumpbeingtrump23.wav",
             "text": "You know, you could see there where blood coming out of her eyes...uh... blood coming out of her...wherever.",
-            "length": 5000
+            "length": 6500
         }, {
             "file": "audio/trumpbeingtrump24.wav",
             "text": "He put glasses on so people will think he is smart!",
-            "length": 3000
+            "length": 3500
         }, {
             "file": "audio/trumpbeingtrump26.wav",
             "text": "Rick Perry should have to have an IQ-test!",
-            "length": 2500
+            "length": 3500
         }, {
             "file": "audio/trumpbeingtrump27.wav",
             "text": "I've said that if Ivanka weren't my daughter, perhaps I'd be dating her.",
-            "length": 3000
+            "length": 4000
         }, {
             "file": "audio/trumpbeingtrump28.wav",
             "text": "And I watched our police and our firemen, down on 7/11, down at the World Trade Center, right after it came down.",
-            "length": 6000
+            "length": 7000
         }, {
             "file": "audio/trumpbeingtrump29.wav",
             "text": "Grab them by the pussy.",
-            "length": 1500
+            "length": 1800
         }, {
             "file": "audio/trumpbeingtrump30.wav",
             "text": "I tend to like beautiful women more than unattractive women, I don't know maybe that makes me bad.",
-            "length": 3000
+            "length": 5000
         }, {
             "file": "audio/trumpbeingtrump31.wav",
             "text": "Uaaah, I don't know what I said AAH, I don't remember!",
-            "length": 3000
+            "length": 3700
         }, {
             "file": "audio/trumpbeingtrump32.wav",
-            "text": "He's going like I don't remember AHH, the old baby! That's what I said!",
-            "length": 3000
+            "text": "He's going like I don't remember AHH, maybe that's what I said!",
+            "length": 3700
         }, {
             "file": "audio/trumpbeingtrump33.wav",
             "text": "I'd call president Obama and Hillary Clinton the founders of ISIS, they're the founders.",
-            "length": 5000
-        }
+            "length": 6000
+        } 
     ];
 
 function playRandomSound() {
@@ -124,14 +124,30 @@ function playRandomSound() {
 
     var soundFile = sounds[randomNumber];
     var file = document.getElementById("player").innerHTML = "<embed src=\"" + soundFile.file + "\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
-    var text = document.getElementById("quote").innerHTML = "<h2>" + soundFile.text + "</h2>";
+    var text = document.getElementById("style").innerHTML = "<h1>" + soundFile.text + "</h1>";
 
     // Animations when clicking
-    document.getElementById('trump-mouth').className = 'mouthmoving';
+    document.getElementById('img3').className = 'mouthmoving';
 
     setTimeout(function() {
-      $("#trump-mouth").removeClass('mouthmoving');
+      $("#img3").removeClass('mouthmoving');
     }, soundFile.length);
+
+    //console.log(soundFile.length);
+
+
+    //  document.getElementById('img3').className =
+    //    document.getElementById("img3").className.replace
+    //       ( /(?:^|\s)mouthmoving(?!\S)/g , '' )
+
+
+    // $('.img3').removeClass().addClass('mouthmoving').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+    //         $(this).removeClass();
+    //     });
+    //
+    // $(".mouthmoving").css('animation-duration:', "10s");
+    //    document.querySelector('.mouthmoving').style.top = Math.round( screen.height * percent)+'px';
+
 };
 
 function getRandomNumber() {
