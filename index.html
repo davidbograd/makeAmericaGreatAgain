@@ -10,8 +10,9 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript">
 $(window).load(function() {
-	$(".loader").delay(1500).fadeOut("fast");
+	$(".loader").delay(1500).fadeOut("slow");
 })
+
 </script>
 
 	</head>
@@ -19,8 +20,6 @@ $(window).load(function() {
 	<body>
 
 <div class="loader"></div>
-
-
 
 		<!-- Topbar -->
 		<div id="topbar">
@@ -32,7 +31,6 @@ $(window).load(function() {
 		</div>
 
 		<!-- Clicking container and main content -->
-
 		<div class="container" onclick='playRandomSound();'>
 
 			<img class="quotations" src="images/quotations.svg" alt="Trash tal#images/quotations.svgking Trump">
@@ -41,11 +39,10 @@ $(window).load(function() {
 			<div id="quote"></div>
 
 			<!-- Trump and his mouth -->
-			<img id='trump-img' src="images/trump.png">
-			<img id='trump-mouth' src="images/trumpmouth.png">
+			<img id='trump-img' src="images/trump.png" />
+			<img id='trump-mouth' src="images/trumpmouth.png" />
 
 			<span id='player'></span>
-			<img id="lightbeams" src="images/lightbeams.svg">
 
 		</div>
 
