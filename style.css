@@ -1,6 +1,7 @@
     @import 'https://fonts.googleapis.com/css?family=Montserrat';
 body {
-    /*background-image: url('images/grunge-bg.jpg');*/
+    background-image: url('images/grunge-bg.jpg');
+    background: #2f4156;
     background: -webkit-linear-gradient(-90deg, #2f4156, #2c384b);
     /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(-90deg, #2f4156, #2c384b);
@@ -41,12 +42,6 @@ h2 {
   position: absolute;
   padding-left: 18px;
   padding-top: 142px;
-}
-
-#lightbeams {
-  position: fixed;
-  left: 0;
-  opacity: 0.06;
 }
 
 #quote {
