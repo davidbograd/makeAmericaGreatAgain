@@ -187,11 +187,15 @@ var sounds = [{
       }
     }
 
-  function playRandomSound() {
-
+function playRandomSound() {
     var randomNumber = getRandomNumber();
+    playSoundWithID(randomNumber);
+}
 
-    var soundFile = sounds[randomNumber];
+function playSoundWithID(soundNumber){
+    var soundFile = sounds[soundNumber];
+    
+    window.location.hash = "#" + soundNumber;
 
     $(".soundcontainer").attr("src",soundFile.file)
     $(".soundcontainer")[0].oncanplay = function(){
@@ -202,10 +206,7 @@ var sounds = [{
     // var file = document.getElementById("player").innerHTML = "<embed src=\"" + soundFile.file + "\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
     var text = document.getElementById("quote").innerHTML = "<h2>" + soundFile.text + "</h2>";
 
-
-
-
-};
+}
 
 function moveMouth(length){
   // Animations when clicking
@@ -217,6 +218,7 @@ function moveMouth(length){
 }
 
 function getRandomNumber() {
+
     var randomNumber;
     if (usedSounds.length >= sounds.length) {
         // We have used all the numbers
@@ -248,3 +250,16 @@ function contains(a, obj) {
     }
     return false;
 }
+
+
+function myFunction() {
+
+    var x = "The anchor part is now:" + window.location.hash.substring(1);
+    console.log(x);
+    // TODO: Se till att X är en siffra (för att nu är det t ex "#49") -> googla på "subtract from string"
+    // TODO: playSoundWithID(siffran);
+}
+
+myFunction();
+
+
