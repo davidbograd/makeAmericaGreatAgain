@@ -30,9 +30,11 @@ $(window).load(function() {
 			</div>
 		</div>
 
-		<!-- Clicking container and main content -->
+		
 		<div class="container" onclick='playRandomSound();'>
 			<audio class ="soundcontainer" src=""></audio>
+
+		<div class="container" onclick='playRandomSound();' autobuffer controls autoplay;>
 
 			<img class="quotations" src="images/quotations.svg" alt="Trash tal#images/quotations.svgking Trump">
 
@@ -44,7 +46,25 @@ $(window).load(function() {
 			<img id='trump-mouth' src="images/trumpmouth.png" />
 
 			<span id='player'></span>
-			<img id="lightbeams" src="images/lightbeams.svg">
+
+			<div id="share-buttons">
+    
+			    <!-- Email -->
+			    <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">
+			        <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+			    </a>
+			 
+			    <!-- Facebook -->
+			    <a href="http://www.facebook.com/sharer.php?u=https://google.se" target="_blank">
+			        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+			    </a>
+
+			    <!-- Twitter -->
+			    <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+			        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+			    </a>
+    
+			</div>
 
 		</div>
 
