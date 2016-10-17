@@ -91,6 +91,12 @@ h2 {
     /* Standard syntax */
 }
 
+#lightbeams {
+  position: fixed;
+  left: 0;
+  opacity: 0.06;
+}
+
 #trump-img {
     max-height: 700px;
     z-index: 1;
