@@ -117,19 +117,19 @@ var sounds = [{
             "length": 5000
         }, {
             "file": "audio/trumpbeingtrump34.mp3",
-            "text": "I have to have my China <3",
+            "text": "I have to have my China",
             "length": 1000
         }, {
             "file": "audio/trumpbeingtrump35.mp3",
-            "text": "China?:(",
+            "text": "China?",
             "length": 600
         }, {
             "file": "audio/trumpbeingtrump37.mp3",
-            "text": "I've been saying, China, China, China, China, China, China!",
+            "text": "I've been saying China, China, China, China, China, China!",
             "length": 2500
         }, {
             "file": "audio/trumpbeingtrump38.mp3",
-            "text": "China :o",
+            "text": "China",
             "length": 400
         }, {
             "file": "audio/trumpbeingtrump39.mp3",
@@ -141,7 +141,7 @@ var sounds = [{
             "length": 1000
         }, {
             "file": "audio/trumpbeingtrump41.mp3",
-            "text": "People think I don't like China, I <3 China!",
+            "text": "People think I don't like China, I love China!",
             "length": 1500
         }, {
             "file": "audio/trumpbeingtrump42.mp3",
@@ -194,7 +194,7 @@ function playRandomSound() {
 
 function playSoundWithID(soundNumber){
     var soundFile = sounds[soundNumber];
-    
+
     window.location.hash = "#" + soundNumber;
 
     $(".soundcontainer").attr("src",soundFile.file)
@@ -261,5 +261,3 @@ function myFunction() {
 }
 
 myFunction();
-
-
