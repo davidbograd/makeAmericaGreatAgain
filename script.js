@@ -2,6 +2,7 @@ $(document).ready(function() {
 
     $('#mainContainer').on('click', function() {
         playRandomSound();
+
     });
 
     var usedSounds = [];
@@ -201,6 +202,15 @@ $(document).ready(function() {
 
     function playSoundWithID(soundNumber){
         var soundFile = sounds[soundNumber];
+
+        // set fb share link id
+        var _href_fb = $("a.facebook").attr("href");
+        $("a.facebook").attr("href", _href_fb + "#" + soundNumber);
+
+        // set twitter share link id
+        var _href_twitter = $("a.twitter").attr("href");
+        $("a.twitter").attr("href", _href_twitter + "#" + soundNumber);
+
         window.location.hash = "#" + soundNumber;
         $(".soundcontainer").attr("src",soundFile.file)
         $(".soundcontainer")[0].oncanplay = function(){
@@ -269,5 +279,3 @@ $(document).ready(function() {
 
     myFunction();
 });
-
-
