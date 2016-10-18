@@ -8,7 +8,7 @@ $(document).ready(function() {
     var usedSounds = [];
     var sounds = [{
                 "file": "audio/trumpbeingtrump1.mp3",
-                "text": "Hello...Hello? Can I get some water????...",
+                "text": "Hello...Hello? Can I get some water?!?",
                 "length": 3000
             }, {
                 "file": "audio/trumpbeingtrump2.mp3",
@@ -20,7 +20,7 @@ $(document).ready(function() {
                 "length": 1700
             }, {
                 "file": "audio/trumpbeingtrump4.mp3",
-                "text": "We can't sell beef...it's peanuts!",
+                "text": "We can't sell beef... it's peanuts!",
                 "length": 2000
             }, {
                 "file": "audio/trumpbeingtrump5.mp3",
@@ -84,7 +84,7 @@ $(document).ready(function() {
                 "length": 3100
             }, {
                 "file": "audio/trumpbeingtrump23.mp3",
-                "text": "You know, you could see there where blood coming out of her eyes...uh... blood coming out of her...wherever.",
+                "text": "You know, you could see there where blood coming out of her eyes... uh... blood coming out of her... wherever.",
                 "length": 4700
             }, {
                 "file": "audio/trumpbeingtrump24.mp3",
@@ -124,19 +124,19 @@ $(document).ready(function() {
                 "length": 5000
             }, {
                 "file": "audio/trumpbeingtrump34.mp3",
-                "text": "I have to have my China <3",
+                "text": "I have to have my China.",
                 "length": 1000
             }, {
                 "file": "audio/trumpbeingtrump35.mp3",
-                "text": "China?:(",
+                "text": "China?",
                 "length": 600
             }, {
                 "file": "audio/trumpbeingtrump37.mp3",
-                "text": "I've been saying, China, China, China, China, China, China!",
+                "text": "I've been saying China, China, China, China, China, China!",
                 "length": 2500
             }, {
                 "file": "audio/trumpbeingtrump38.mp3",
-                "text": "China :o",
+                "text": "China.",
                 "length": 400
             }, {
                 "file": "audio/trumpbeingtrump39.mp3",
@@ -148,7 +148,7 @@ $(document).ready(function() {
                 "length": 1000
             }, {
                 "file": "audio/trumpbeingtrump41.mp3",
-                "text": "People think I don't like China, I <3 China!",
+                "text": "People think I don't like China, I love China!",
                 "length": 1500
             }, {
                 "file": "audio/trumpbeingtrump42.mp3",
