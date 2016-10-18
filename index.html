@@ -11,14 +11,13 @@
 $(window).on('load', function() {
 	$(".loader").delay(1500).fadeOut("slow");
 });
-
 </script>
 
 	</head>
 
 	<body>
 
-<div class="loader"></div>
+		<div class="loader"></div>
 
 		<!-- Topbar -->
 		<div id="topbar">
@@ -28,12 +27,9 @@ $(window).on('load', function() {
 				<img class="star" src="images/star.svg" alt="star">
 			</div>
 		</div>
+		<audio class="soundcontainer" src=""></audio>
 
-		
-		<div class="container" onclick='playRandomSound();'>
-			<audio class="soundcontainer" src=""></audio>
-
-		<div class="container" onclick='playRandomSound();' autobuffer controls autoplay;>
+		<div class="container" id="mainContainer" autobuffer controls autoplay>
 
 			<img class="quotations" src="images/quotations.svg" alt="Trash tal#images/quotations.svgking Trump">
 
