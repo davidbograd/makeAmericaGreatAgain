@@ -5,20 +5,20 @@
 	<head>
 		<title>Trump site</title>
 		<link rel='stylesheet' type='text/css' href='style.css' />
-		<script type='text/javascript' src='script.js'></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script type="text/javascript">
-			$(window).load(function() {
-				$(".loader").delay(1500).fadeOut("slow");
-			})
-		</script>
+		<script type='text/javascript' src='script.js'></script>
+<script type="text/javascript">
+$(window).on('load', function() {
+	$(".loader").delay(1500).fadeOut("slow");
+});
+
+</script>
 
 	</head>
 
 	<body>
 
-		<div class="loader"></div>
+<div class="loader"></div>
 
 		<!-- Topbar -->
 		<div id="topbar">
@@ -29,49 +29,43 @@
 			</div>
 		</div>
 
-
+		
 		<div class="container" onclick='playRandomSound();'>
 			<audio class="soundcontainer" src=""></audio>
 
-			<div class="container" onclick='playRandomSound();' autobuffer controls autoplay;>
+		<div class="container" onclick='playRandomSound();' autobuffer controls autoplay;>
 
-				<img class="quotations" src="images/quotations.svg" alt="Trash tal#images/quotations.svgking Trump">
+			<img class="quotations" src="images/quotations.svg" alt="Trash tal#images/quotations.svgking Trump">
 
-				<div class="container">
-					<!-- Quote div -->
-					<div id="quote"></div>
+			<!-- Quote div -->
+			<div id="quote"></div>
 
-					<!-- share buttons -->
-					<div id="share-buttons">
-						<!-- Email -->
-						<a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">
-							<img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
-						</a>
+			<!-- Trump and his mouth -->
+			<img id='trump-img' src="images/trump.png" />
+			<img id='trump-mouth' src="images/trumpmouth.png" />
 
-						<!-- Facebook -->
-						<a href="http://www.facebook.com/sharer.php?u=https://google.se" target="_blank">
-							<img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
-						</a>
+			<span id='player'></span>
 
-						<!-- Twitter -->
-						<a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
-							<img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
-						</a>
+			<div id="share-buttons">
+    
+			    <!-- Email -->
+			    <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://trumptrash.org">
+			        <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+			    </a>
+			 
+			    <!-- Facebook -->
+			    <a href="http://www.facebook.com/sharer.php?u=https://trumptrash.org" target="_blank">
+			        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+			    </a>
 
-					</div>
-				</div>
-
-
-				<!-- Trump and his mouth -->
-				<!-- <div class="flex-trump"> -->
-					<img id='trump-img' src="images/trump.png">
-					<img id='trump-mouth' src="images/trumpmouth.png">
-				<!-- </div> -->
-
-				<span id='player'></span>
-				<img id="lightbeams" src="images/lightbeams.svg">
-
+			    <!-- Twitter -->
+			    <a href="https://twitter.com/share?url=https://trumptrash.org&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+			        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+			    </a>
+    
 			</div>
+
+		</div>
 
 	</body>
 

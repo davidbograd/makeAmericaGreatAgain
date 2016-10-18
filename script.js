@@ -1,3 +1,4 @@
+$(document).ready(function() {
 var usedSounds = [];
 var sounds = [{
             "file": "audio/trumpbeingtrump1.mp3",
@@ -117,19 +118,19 @@ var sounds = [{
             "length": 5000
         }, {
             "file": "audio/trumpbeingtrump34.mp3",
-            "text": "I have to have my China",
+            "text": "I have to have my China <3",
             "length": 1000
         }, {
             "file": "audio/trumpbeingtrump35.mp3",
-            "text": "China?",
+            "text": "China?:(",
             "length": 600
         }, {
             "file": "audio/trumpbeingtrump37.mp3",
-            "text": "I've been saying China, China, China, China, China, China!",
+            "text": "I've been saying, China, China, China, China, China, China!",
             "length": 2500
         }, {
             "file": "audio/trumpbeingtrump38.mp3",
-            "text": "China",
+            "text": "China :o",
             "length": 400
         }, {
             "file": "audio/trumpbeingtrump39.mp3",
@@ -141,7 +142,7 @@ var sounds = [{
             "length": 1000
         }, {
             "file": "audio/trumpbeingtrump41.mp3",
-            "text": "People think I don't like China, I love China!",
+            "text": "People think I don't like China, I <3 China!",
             "length": 1500
         }, {
             "file": "audio/trumpbeingtrump42.mp3",
@@ -190,16 +191,14 @@ var sounds = [{
 function playRandomSound() {
     var randomNumber = getRandomNumber();
     playSoundWithID(randomNumber);
+
 }
 
 function playSoundWithID(soundNumber){
     var soundFile = sounds[soundNumber];
-
     window.location.hash = "#" + soundNumber;
-
     $(".soundcontainer").attr("src",soundFile.file)
     $(".soundcontainer")[0].oncanplay = function(){
-
         moveMouth(soundFile.length);
     }
     $(".soundcontainer")[0].play();
@@ -256,8 +255,14 @@ function myFunction() {
 
     var x = "The anchor part is now:" + window.location.hash.substring(1);
     console.log(x);
+
+
+    playSoundWithID(parseInt(window.location.hash.substring(1)));
     // TODO: Se till att X är en siffra (för att nu är det t ex "#49") -> googla på "subtract from string"
     // TODO: playSoundWithID(siffran);
 }
 
 myFunction();
+});
+
+
