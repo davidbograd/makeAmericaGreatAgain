@@ -51,10 +51,6 @@ h2 {
   padding-top: 152px;
 }
 
-.content-area {
-  display: flex;
-}
-
 #quote {
   max-width: 370px;
   position: absolute;
@@ -99,31 +95,19 @@ h2 {
   z-index: -1;
 }
 
-/*#flex-trump {
-    padding: 0;
-    margin: 0;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}*/
-
 #trump-img {
-    height: 85vh;
-    z-index: 1;
-    position: fixed;
-    margin: 0;
-    padding: 0;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    justify-content: center;
-    left: 13%;
+  height: 85vh;
+  z-index: 1;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  left: 13%;
 }
 
 #trump-mouth {
@@ -180,6 +164,7 @@ h2 {
 }
 
 
+/* Chrome, Safari, Opera */
 
 @-webkit-keyframes example {
     0% {
@@ -207,16 +192,13 @@ h2 {
 
 
 .loader {
-  position: fixed;
-  left: 0px;
+    position: fixed;
+    left: 0px;
 	top: 0px;
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
 	background: url('images/trumpload.gif') 50% 50% no-repeat rgb(47,65,86);
-  text-align: center;
-  padding-top: 10%;
-
     }
 
 #share-buttons img {
@@ -225,10 +207,4 @@ h2 {
     border: 0;
     box-shadow: 0;
     display: inline;
-}
-
-#instructions {
-  font-size: 25px;
-
-
 }
