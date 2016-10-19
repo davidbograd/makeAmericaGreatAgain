@@ -272,9 +272,9 @@ $(document).ready(function() {
         console.log(x);
 
 
-        playSoundWithID(parseInt(window.location.hash.substring(1)));
-        // TODO: Se till att X är en siffra (för att nu är det t ex "#49") -> googla på "subtract from string"
-        // TODO: playSoundWithID(siffran);
+        // playSoundWithID(parseInt(window.location.hash.substring(1)));
+        // // TODO: Se till att X är en siffra (för att nu är det t ex "#49") -> googla på "subtract from string"
+        // // TODO: playSoundWithID(siffran);
     }
 
     myFunction();
