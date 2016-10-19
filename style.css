@@ -137,14 +137,17 @@ h2 {
   #trump-mouth {width: 140%; left: -20%;}
   h2 {font-size: 14px;}
   h1 {font-size: 32px;}
-  .qoute-container {top: 80%; left: 50%; transform: translateX(-50%);}
+  .qoute-container {top: 82%; left: 50%; transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5); padding: 10px 20px 10px 20px;
+    border-radius: 5px; width: 380px;}
 }
 
 @media (max-width: 400px) {
   #trump-img {width: 210%; left: -55%;}
   #trump-mouth {width: 210%; left: -55%;}
-  h2 {font-size: 12px;}
+  /*h2 {font-size: 12px;}*/
   h1 {font-size: 28px;}
+  .qoute-container {width: 300px;}
 }
 
 .mouthmoving {
