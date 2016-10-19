@@ -88,33 +88,58 @@ h2 {
 }
 
 #lightbeams {
-  position: fixed;
+  position: relative;
   left: 0;
-  top: 0;
+  right: 0;
+  margin: auto;
+  height: 125%;
   opacity: 0.06;
   z-index: -1;
 }
 
 #trump-img {
-  height: 85vh;
+  width: 70%;
   z-index: 1;
   position: fixed;
-  margin: 0;
-  padding: 0;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  justify-content: center;
-  left: 13%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 #trump-mouth {
-    height: 85vh;
+    width: 70%;
     z-index: 2;
     position: fixed;
-    left: 13%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@media (max-width: 1200px) {
+  #trump-img {width: 90%;}
+  #trump-mouth {width: 90%;}
+}
+
+@media (max-width: 940px) {
+  #trump-img {width: 110%; left: -5%;}
+  #trump-mouth {width: 110%; left: -5%;}
+  h2 {font-size: 16px;}
+}
+
+@media (max-width: 680px) {
+  #trump-img {width: 140%; left: -20%;}
+  #trump-mouth {width: 140%; left: -20%;}
+  h2 {font-size: 14px;}
+  h1 {font-size: 32px;}
+}
+
+@media (max-width: 400px) {
+  #trump-img {width: 210%; left: -55%;}
+  #trump-mouth {width: 210%; left: -55%;}
+  h2 {font-size: 12px;}
+  h1 {font-size: 28px;}
 }
 
 .mouthmoving {
@@ -163,9 +188,6 @@ h2 {
     }
 }
 
-
-/* Chrome, Safari, Opera */
-
 @-webkit-keyframes example {
     0% {
         left: 0px;
@@ -187,9 +209,7 @@ h2 {
         left: 0px;
         top: 0px;
     }
-
 }
-
 
 .loader {
     position: fixed;
@@ -213,5 +233,5 @@ h2 {
     border: 0;
     box-shadow: 0;
     display: inline;
-    z-index: 9999
+    z-index: 9998
 }
