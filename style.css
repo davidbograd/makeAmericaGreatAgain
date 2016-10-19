@@ -42,22 +42,6 @@ h2 {
     line-height: 150%;
 }
 
-.quotations {
-  font-size: 100px;
-  color: #ce222f;
-  max-height: 26px;
-  position: absolute;
-  padding-left: 134px;
-  padding-top: 152px;
-}
-
-#quote {
-  max-width: 370px;
-  position: absolute;
-  padding-left: 62%;
-  padding-top: 9%;
-}
-
 #topbar-content {
     padding: 0;
     margin: 0;
@@ -85,6 +69,25 @@ h2 {
     /* For Firefox 3.6 to 15 */
     background: linear-gradient(-90deg, #ca202c, #e32f41);
     /* Standard syntax */
+}
+
+.qoute-container {
+  display: flex;
+  position: absolute;
+  left: 64%;
+  top: 29%;
+  z-index: 9997;
+}
+
+.quotations {
+  color: #ce222f;
+  max-height: 26px;
+  margin-top: 24px;
+  margin-right: 14px;
+}
+
+#quote {
+  max-width: 370px;
 }
 
 #lightbeams {
@@ -126,6 +129,7 @@ h2 {
   #trump-img {width: 110%; left: -5%;}
   #trump-mouth {width: 110%; left: -5%;}
   h2 {font-size: 16px;}
+  .quotations {max-height: 22px; margin-top: 16px; margin-right: 10px;}
 }
 
 @media (max-width: 680px) {
@@ -133,13 +137,17 @@ h2 {
   #trump-mouth {width: 140%; left: -20%;}
   h2 {font-size: 14px;}
   h1 {font-size: 32px;}
+  .qoute-container {top: 82%; left: 50%; transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5); padding: 10px 20px 10px 20px;
+    border-radius: 5px; width: 380px;}
 }
 
 @media (max-width: 400px) {
   #trump-img {width: 210%; left: -55%;}
   #trump-mouth {width: 210%; left: -55%;}
-  h2 {font-size: 12px;}
+  /*h2 {font-size: 12px;}*/
   h1 {font-size: 28px;}
+  .qoute-container {width: 300px;}
 }
 
 .mouthmoving {
